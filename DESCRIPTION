@@ -1,0 +1,21 @@
+Package: ana
+Type: Package
+Title: Agencia Nacional de Aguas
+Version: 0.0.1
+Date: 2020-06-10
+Authors@R: c( 
+  person(given = "Sergio", family = "Ibarra-Espinosa",
+         role = c("aut", "cre"),
+         email = "sergio.ibarra@usp.br",
+         comment = c(ORCID = "0000-0002-3162-1905"))) 
+Description: get data from ANA and Hidroweb.
+License: MIT + file LICENSE
+URL: https://gitlab.com/ana/vein
+BugReports: https://gitlab.com/ana/vein/-/issues
+LazyData: no
+Imports: sf, data.table, magrittr, jsonlite, httr
+Suggests: lwgeom, cptcity
+Encoding: UTF-8
+NeedsCompilation: no
+Packaged: 2020-06-11 01:27:01 UTC; sergio
+RoxygenNote: 7.0.2
